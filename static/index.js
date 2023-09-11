@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";    
     }
     SubmitResults();
-    if (score <= 49) return '鸡都还没熟呢..';
-    if (score <= 99) return '鸡好吃吗?';
-    if (score <= 149) return '兄弟萌吃鸡了!';
-    if (score <= 199) return '大吉大利，今晚吃鸡!!';
-    return '鸡哥给你一个么么哒~';
+    if (score <= 49) return '谢特bro？！';
+    if (score <= 99) return 'come on bro！';
+    if (score <= 149) return '解bro love you！';
+    if (score <= 199) return 'bro，go！go！go！';
+    return 'oh，man！';
 }
 
 function toStr(obj) {
